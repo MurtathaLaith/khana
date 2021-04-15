@@ -1,1 +1,34 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+@import "~flickity/css/flickity.css";
+@import "~flickity-fade/flickity-fade.css";
+html{
+    font-size: 16px;
+  }
+
+.sub-title{
+    font-weight: 900;
+    font-size: 35px;
+}
+.main-txt{
+  font-size: 18px;
+    font-weight: 400;
+}
+
+.slide-img{
+  width: 100%;
+  padding-left: 1vw;
+  height: 60vw;
+  object-fit: cover;
+}
+
+  @media screen and (min-width: 320px) {
+    html {
+      font-size: calc(16px + 6 * ((100vw - 320px) / 680));
+    }
+  }
+  @media screen and (min-width: 1000px) {
+    html {
+      font-size: 22px;
+    }
+  }

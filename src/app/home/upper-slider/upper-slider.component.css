@@ -1,0 +1,37 @@
+/* title  */
+.upper-slider-cell{
+    width: 100%;
+}
+.dot{
+    width:1vw;
+    height:1vw;
+    border-radius: 100%;
+    background-color: #FFC431;
+}
+.selected{
+  width:1vw;
+  height: 1vw;
+  border-radius: 100%;
+  background-color: #FFC431;
+  outline: 0.5vw solid white;
+}
+.positions-bottom {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+.upper-slide-title{
+    font-weight: 900;
+    font-size: 4vw;
+}
+.upper-slide-txt{
+    font-size: 2.3vw;
+    font-weight: 400;
+}
+
+.slide-img{
+    width: 100%;
+
+    height: 60vw;
+    object-fit: cover;
+}

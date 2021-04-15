@@ -24,7 +24,8 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/flickity/css/flickity.css"
             ],
             "scripts": []
           },
@@ -120,5 +121,8 @@
       }
     }
   },
-  "defaultProject": "khana"
+  "defaultProject": "khana",
+  "cli": {
+    "analytics": "988f3644-3589-4b7e-a4c0-0804549bd010"
+  }
 }

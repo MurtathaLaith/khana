@@ -1,0 +1,76 @@
+.clear{
+    color: black;
+}
+.clear:hover{
+    text-decoration: none;
+}
+.join-us{
+    color:#EA2444;
+    border: 0.2em solid #EA2444;
+    border-radius: 30px;
+    font-size: 0.75rem;
+}
+.join-us:hover{
+    color:#cf0023;
+    border-color: #cf0023;
+}
+.txt-red{
+    color:#EA2444;
+}
+.main-txt{
+    font-family: Montserrat;
+    font-size: 3em;
+}
+.writer{
+    font-family: Montserrat;
+    height: 9em;
+
+}
+.shadowover{
+z-index:1 ;
+}
+.shadowunder{
+position:relative;
+color:red;
+z-index: 0;
+}
+
+  @media (min-width: 0px) {
+    .main-txt{
+        font-family: Montserrat;
+        font-size: 2.3em;
+    }
+  }
+
+  @media (min-width: 576px) {
+
+  }
+
+  @media (min-width: 768px) {
+    .main-txt{
+        font-family: Montserrat;
+        font-size: 3em;
+    }
+  }
+
+  @media (min-width: 1200px) {
+
+  }
+
+
+
+//   @media (min-width: 0px) {
+
+// }
+
+// @media (min-width: 576px) {
+
+// }
+
+// @media (min-width: 768px) {
+
+// }
+
+// @media (min-width: 1200px) {
+
+// }
