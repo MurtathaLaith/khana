@@ -43,7 +43,7 @@ export class OurActivitiesComponent implements OnInit {
   ngAfterViewInit(): void {
     let elem = document.querySelector('.bottom-slider');
     let options = {
-      fade: true,
+      fade: false,
       wrapAround: true,
       adaptiveHeight: true,
       cellSelector: '.bottom-slider-cell',

@@ -1,5 +1,43 @@
+@media (min-width: 0px) {
+
+  .bottom-slide-img{
+      height: 20rem;
+      object-fit: cover;
+  }
+
+  .upping-component{
+      position: relative;
+      top: -80px;
+  }
+}
+
+@media (min-width: 576px) {
+  .upping-component{
+      position: relative;
+      top: -200px;
+  }
+}
+
+@media (min-width: 768px) {
+  .bottom-slide-img{
+      height: 35rem;
+      object-fit: cover;
+  }
+  .upping-component{
+      position: relative;
+      top: -200px;
+  }
+
+ 
+}
+
+@media (min-width: 1200px) {
+
+}
 
 
+
+/*  */
 
 @media (min-width: 0px) { 
     .app-download{
