@@ -8,6 +8,7 @@
 }
 html{
     font-size: 16px;
+    overflow-x: hidden;
   }
 
 .sub-title{
@@ -49,3 +50,47 @@ html{
   }
 
   }
+
+
+
+
+
+/*  */
+
+@media (min-width: 0px) {
+  .slide-img{
+      
+      object-fit: cover;
+      object-position: right;
+  } 
+  
+  
+}
+
+@media (min-width: 576px) {
+  .slide-img{
+     height: 450px;
+      object-fit: cover;
+  } 
+  .upper-slider{
+      position: relative;
+      
+  }
+  
+}
+
+@media (min-width: 768px) {
+  .slide-img{
+      max-width: 70%;
+       object-fit: cover;
+   } 
+ 
+}
+
+@media (min-width: 1200px) {
+
+}
+
+
+
+

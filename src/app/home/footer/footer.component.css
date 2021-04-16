@@ -1,0 +1,13 @@
+.footer{
+    height: fit-content;
+    background-color: #F1BB36;
+    width: 100%;
+    color: white;
+    margin-left: 10px;
+    font-family: Segoe UI;
+    font-size: 10px;
+}
+.footer i{
+    margin-left: 20px;
+ 
+}

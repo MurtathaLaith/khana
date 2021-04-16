@@ -9,6 +9,7 @@ import { OurActivitiesComponent } from './home/our-activities/our-activities.com
 import { WhoAreWeComponent } from './home/who-are-we/who-are-we.component';
 import { PhoneAppComponent } from './home/phone-app/phone-app.component';
 import { JoinUsComponent } from './home/join-us/join-us.component';
+import { FooterComponent } from './home/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { JoinUsComponent } from './home/join-us/join-us.component';
     WhoAreWeComponent,
     PhoneAppComponent,
     JoinUsComponent,
+    FooterComponent,
     
   ],
   imports: [
