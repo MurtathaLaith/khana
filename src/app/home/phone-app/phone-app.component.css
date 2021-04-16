@@ -1,0 +1,26 @@
+
+
+
+@media (min-width: 0px) { 
+    .app-download{
+        width: 75%;
+    }
+  }
+  
+  @media (min-width: 576px) {
+    
+    
+  }
+  
+  @media (min-width: 768px) {
+    .app-download{
+        width: 50%;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+  
+  }
+  
+  
+  
