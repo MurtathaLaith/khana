@@ -2,16 +2,21 @@
 @import "~bootstrap/dist/css/bootstrap.css";
 @import "~flickity/css/flickity.css";
 @import "~flickity-fade/flickity-fade.css";
+
+*{
+  font-family: Almarai;
+}
 html{
     font-size: 16px;
   }
 
 .sub-title{
     font-weight: 900;
-    font-size: 35px;
+    font-size: 28px;
+    
 }
 .main-txt{
-  font-size: 18px;
+  font-size: 16px;
     font-weight: 400;
 }
 
@@ -21,7 +26,9 @@ html{
   height: 60vw;
   object-fit: cover;
 }
-
+.bg-orange{
+  background-color: #FFC431;
+}
   @media screen and (min-width: 320px) {
     html {
       font-size: calc(16px + 6 * ((100vw - 320px) / 680));
@@ -31,4 +38,14 @@ html{
     html {
       font-size: 22px;
     }
+    .sub-title{
+      font-weight: 900;
+      font-size: 35px;
+      
+  }
+  .main-txt{
+    font-size: 25px;
+      font-weight: 400;
+  }
+
   }

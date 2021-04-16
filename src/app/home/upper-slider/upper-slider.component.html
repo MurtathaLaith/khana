@@ -12,7 +12,7 @@
                     <div class="dot" *ngFor="let slide of slideInfo" [ngClass]="{'selected':slide.isSelected,'dot':!slide.isSelected}">.</div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col d-flex justify-content-end">
                 <img [src]='slide.imgSrc' alt="" class="slide-img mx-auto">
             </div>
         </div>

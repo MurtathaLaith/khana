@@ -9,14 +9,19 @@ import * as flickity from 'flickity-fade';
 export class UpperSliderComponent implements OnInit {
 
 slideInfo=[
-  {title:'lorem, ipsum',
-  body:`Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit commodi aliquam, similique explicabo eius consequatur. Hic saepe dolor temporibus animi? Possimus, debitis! `,
-  imgSrc:'../../../assets/imgs/priscilla-du-preez-XkKCui44iM0-unsplash.png',
+  {title:'الرؤية',
+  body:`أن تكون الخانة الحل الأول والمساعد الأول في خلق جيل واعي باهمية التدريب والتطوير.`,
+  imgSrc:'../../../assets/slides images/Pic-1.jpeg',
   isSelected:true},
   
-  {title:'lorem, ipsum2',
-  body:`Lorem ipsum dolor slklklklklklkit amet consectetur adipisicing elit. Odit commodi aliquam, similique explicabo eius consequatur. Hic saepe dolor temporibus animi? Possimus, debitis! `,
-  imgSrc:'../../../assets/imgs/priscilla-du-preez-XkKCui44iM0-unsplash.png',
+  {title:'الهدف',
+  body:`أن تكون الخانة الحل الأول والمساعد الأول في خلق جيل واعي باهمية التدريب والتطوير.`,
+  imgSrc:'../../../assets/slides images/Pic-3.jpeg',
+  isSelected:false},
+  {title:'المهمة',
+  body:`
+  توفير خدمات متكاملة للافراد والشركات من شانها ان تطور القطاع الخاص وتعمل على توظيف طاقات الشباب في امكانها الصحيحة.`,
+  imgSrc:'../../../assets/slides images/Pic-4.jpeg',
   isSelected:false},
 ]
 

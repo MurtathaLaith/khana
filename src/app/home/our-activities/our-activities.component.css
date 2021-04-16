@@ -1,14 +1,17 @@
+*{
+    color: white;
+}
 .bottom-slide-img{
-    height: 60vw;
+    height: 20rem;
     object-fit: cover;
 }
 .bottom-slide-cell{
     width: 100%;
 }
 .np-btn{
-    color: black;
+    color: white;
     text-decoration: none;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid white;
 }
 .np-btn:hover{
     color: rgb(133, 133, 133);
@@ -19,4 +22,32 @@
 }
 .content{
     width: 60.7vw;
+}
+
+
+@media (min-width: 0px) {
+
+    .bottom-slide-img{
+        height: 20rem;
+        object-fit: cover;
+    }
+}
+
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+    .bottom-slide-img{
+        height: 35rem;
+        object-fit: cover;
+    }
+
+    .bottom-slider{
+        
+    }
+}
+
+@media (min-width: 1200px) {
+  
 }
