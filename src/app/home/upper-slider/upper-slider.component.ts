@@ -39,7 +39,7 @@ slideInfo=[
       prevNextButtons: false,
       pageDots: false,
       cellAlign: 'left',
-      autoPlay: 2000,
+      autoPlay: 3000,
 
     }
     this.slider = new flickity(elem, options)
